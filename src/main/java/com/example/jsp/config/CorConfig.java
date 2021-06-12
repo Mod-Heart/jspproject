@@ -18,7 +18,8 @@ public class CorConfig implements WebMvcConfigurer {
 				.allowedMethods("GET", "HEAD", "POST", "PUT", "DELETE", "OPTIONS")
 				.allowCredentials(true)
 				.maxAge(3600)
-				.allowedHeaders("*");
+				.allowedHeaders("*")
+		;
 	}
 
 }
